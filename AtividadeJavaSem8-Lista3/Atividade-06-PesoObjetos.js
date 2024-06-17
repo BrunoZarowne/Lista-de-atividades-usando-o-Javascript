@@ -23,47 +23,47 @@ switch(escolhaUsuario){
 
     case 1:
         pesoObjetoFinal = pesoObjeto * 0.06
-        alert('O peso do(a) ' + nomeObjeto + ' em Plutão será de: ' + pesoObjetoFinal + 'Kgs')
+        alert('O peso do(a) ' + nomeObjeto + ' em Plutão será de: ' + pesoObjetoFinal.toFixed(2) + 'Kgs')
         break
 
     case 2:
         pesoObjetoFinal = pesoObjeto * 0.17
-        alert('O peso do(a) ' + nomeObjeto + ' na Lua será de: ' + pesoObjetoFinal + 'Kgs')
+        alert('O peso do(a) ' + nomeObjeto + ' na Lua será de: ' + pesoObjetoFinal.toFixed(2) + 'Kgs')
         break
 
     case 3:
         pesoObjetoFinal = pesoObjeto * 0.38
-        alert('O peso do(a) ' + nomeObjeto + ' em Mercúrio será de: ' + pesoObjetoFinal + 'Kgs')
+        alert('O peso do(a) ' + nomeObjeto + ' em Mercúrio será de: ' + pesoObjetoFinal.toFixed(2) + 'Kgs')
         break
 
     case 4:
         pesoObjetoFinal = pesoObjeto * 0.38
-        alert('O peso do(a) ' + nomeObjeto + ' em Marte será de: ' + pesoObjetoFinal + 'Kgs')
+        alert('O peso do(a) ' + nomeObjeto + ' em Marte será de: ' + pesoObjetoFinal.toFixed(2) + 'Kgs')
         break
 
     case 5:
         pesoObjetoFinal = pesoObjeto * 0.91
-        alert('O peso do(a) ' + nomeObjeto + ' em Vênus será de: ' + pesoObjetoFinal + 'Kgs')
+        alert('O peso do(a) ' + nomeObjeto + ' em Vênus será de: ' + pesoObjetoFinal.toFixed(2) + 'Kgs')
         break
 
     case 6:
         pesoObjetoFinal = pesoObjeto * 0.92
-        alert('O peso do(a) ' + nomeObjeto + ' em Urano será de: ' + pesoObjetoFinal + 'Kgs')
+        alert('O peso do(a) ' + nomeObjeto + ' em Urano será de: ' + pesoObjetoFinal.toFixed(2) + 'Kgs')
         break
 
     case 7:
         pesoObjetoFinal = pesoObjeto * 1.06
-        alert('O peso do(a) ' + nomeObjeto + ' em Saturno será de: ' + pesoObjetoFinal + 'Kgs')
+        alert('O peso do(a) ' + nomeObjeto + ' em Saturno será de: ' + pesoObjetoFinal.toFixed(2) + 'Kgs')
         break
 
     case 8:
         pesoObjetoFinal = pesoObjeto * 1.19
-        alert('O peso do(a) ' + nomeObjeto + ' em Netuno será de: ' + pesoObjetoFinal + 'Kgs')
+        alert('O peso do(a) ' + nomeObjeto + ' em Netuno será de: ' + pesoObjetoFinal.toFixed(2) + 'Kgs')
         break
 
     case 9:
         pesoObjetoFinal = pesoObjeto * 2.34
-        alert('O peso do(a) ' + nomeObjeto + ' em Júpiter será de: ' + pesoObjetoFinal + 'Kgs')
+        alert('O peso do(a) ' + nomeObjeto + ' em Júpiter será de: ' + pesoObjetoFinal.toFixed(2) + 'Kgs')
         break
 
     default:
